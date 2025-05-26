@@ -1,0 +1,21 @@
+import turtle
+player = turtle.Turtle()
+turtle.Screen().bgcolor("blue")
+
+player.forward(100)
+player.left(120)
+player.forward(100)
+player.left(120)
+player.forward(100)
+
+player.penup()
+player.right(150)
+player.forward(50)
+player.pendown()
+player.right(90)
+player.forward(100)
+player.right(120)
+player.forward(100)
+player.right(120)
+player.forward(100)
+turtle.done()
